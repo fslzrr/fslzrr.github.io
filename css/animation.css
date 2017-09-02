@@ -1,0 +1,327 @@
+
+/* Header */
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+.initialFadeInNav{
+  opacity: 0;
+  -webkit-animation: fadeIn ease-out 1;
+  -moz-animation: fadeIn ease-out 1;
+  animation: fadeIn ease-out 1;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1.5s;
+	-moz-animation-duration:1.5s;
+	animation-duration:1.5s;
+
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes fadeOutNav{
+  from{
+    opacity: 1;
+  }
+  top{
+    opacity: 0;
+    display: none;
+  }
+}
+
+
+.fadeOutNav{
+  opacity:0;
+
+  -webkit-animation:fadeOutNav ease-in 1;
+  -moz-animation:fadeOutNav ease-in 1;
+  animation:fadeOutNav ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:.2s;
+  -moz-animation-duration:.2s;
+  animation-duration:.2s;
+}
+
+@keyframes fadeInNav{
+  from{
+    opacity: 0;
+  }
+  top{
+    opacity: 1;
+  }
+}
+
+.fadeInNav{
+  opacity:1;
+
+  -webkit-animation:fadeInNav ease-in 1;
+  -moz-animation:fadeInNav ease-in 1;
+  animation:fadeInNav ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:.2s;
+  -moz-animation-duration:.2s;
+  animation-duration:.2s;
+}
+
+/* Hero */
+
+
+
+
+.fadeIn{
+  opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.fadeIn2{
+  opacity:0;
+	-webkit-animation:fadeIn ease-in 1
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.5s;
+	-moz-animation-duration:0.5s;
+	animation-duration:0.5s;
+
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+.pulse{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 8s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.pulse2{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 7.5s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+
+.pulse3{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 7s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+
+.pulse4{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 6.5s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.pulse5{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 6s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.pulse6{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 5.5s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.pulse7{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 5s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.pulse8{
+  opacity: 0;
+  -webkit-animation: pulse infinite;
+  -moz-animation: pulse infinite;
+  animation: pulse infinite;
+
+	-webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration: 4.5s;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+/* Only on Desktop */
+
+@media (min-width: 1049px) {
+
+  .design{
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  .design:hover{
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 27.6px 2.4px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 0px 27.6px 2.4px rgba(0, 0, 0, 0.32);
+    -ms-box-shadow: 0px 0px 27.6px 2.4px rgba(0, 0, 0, 0.32);
+    -o-box-shadow: 0px 0px 27.6px 2.4px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 0px 27.6px 2.4px rgba(0, 0, 0, 0.32);
+
+    transform: scale(1.00625);
+  }
+
+  .contactButton{
+    transition: 0.2s;
+  }
+
+  .contactButton:hover{
+    color: white;
+    background-color: #c9c91b;
+
+    -webkit-box-shadow: 0px 0px 10px 2.4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 10px 2.4px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0px 0px 10px 2.4px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 10px 2.4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 2.4px rgba(0, 0, 0, 0.1);
+  }
+}
