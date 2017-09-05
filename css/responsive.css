@@ -19,6 +19,10 @@
     width: 90%;
   }
 
+  .wrapper2{
+    width: 90%;
+  }
+
   .design{
     width: 27vw;
     height: 27vw;
@@ -93,6 +97,10 @@
 @media (max-width: 414px) {
 
   .wrapper{
+    width: 90%;
+  }
+
+  .wrapper2{
     width: 90%;
   }
 
